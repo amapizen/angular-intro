@@ -1,0 +1,8 @@
+<nav>
+  <ul>
+    <li><a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Home</a></li>
+    <li><a routerLink="/counter" routerLinkActive="active">Contador</a></li>
+    <li><a [routerLink]="['/hero']" [routerLinkActive]="'active'">Hero</a></li>
+    <li><a routerLink="/about" routerLinkActive="active">About</a></li>
+  </ul>
+</nav>
