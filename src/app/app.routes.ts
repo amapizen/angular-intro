@@ -2,7 +2,7 @@ import { Routes } from '@angular/router';
 import { CounterPageComponent } from './pages/counter/counter-page';
 import { HeroPageComponent } from './pages/hero/hero-page';
 import { AboutPageComponent } from './pages/about/about-page';
-import { App } from './app';
+import { AboutSuperPageComponent} from './pages/about super/about-super-page';
 
 export const routes: Routes = [
   {
@@ -16,6 +16,10 @@ export const routes: Routes = [
   {
     path: 'about',
     component: AboutPageComponent
+  },
+    {
+    path: 'about-super',
+    component: AboutSuperPageComponent
   },
   /**
   {
