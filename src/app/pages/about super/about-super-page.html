@@ -4,14 +4,14 @@
 <section>
   <div>
     <app-character-add
-      (newCharacter)="addCharacter($event)"
+      (newCharacter)="smartListService.addCharacter($event)"
     />
 
   </div>
   <div>
     <app-character-list
       listName="Characters List"
-      [characters]="characters()"/>
+      [characters]="smartListService.characters()"/>
   </div>
 
 
